@@ -1,0 +1,33 @@
+{
+  "name": "promise-comparison",
+  "version": "1.0.0",
+  "description": "A performance comparison of several different Node.js Promise libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshuaWise/promise-comparison.git"
+  },
+  "keywords": [
+    "promise",
+    "benchmark",
+    "performance",
+    "comparison",
+    "async"
+  ],
+  "author": "Joshua Wise <josh@joshuawise.ninja> (www.joshuawise.ninja)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshuaWise/promise-comparison/issues"
+  },
+  "homepage": "https://github.com/JoshuaWise/promise-comparison#readme",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "cli-color": "^1.1.0",
+    "glob": "^7.0.0",
+    "promise": "^7.1.1",
+    "when": "^3.7.7"
+  }
+}
